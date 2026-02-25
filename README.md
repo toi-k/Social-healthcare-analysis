@@ -57,6 +57,9 @@ The project began by defining measurable KPIs based on strategic goals (remote s
 
 The original dataset was structured as a single flat table.
 
+<img width="704" height="279" alt="raw-data-snapshot" src="https://github.com/user-attachments/assets/3f6ecde3-4ce2-41e5-8df0-3a844d7847d4" />
+
+
 Data cleaning included:
 - Correcting data types (dates, numeric fields, categorical values)
 - Removing rows with missing `Created_Timestamp` (mandatory for time-based analysis)
@@ -72,6 +75,9 @@ The flat dataset was transformed into a **star schema** consisting of:
 - **Fact table:** `Fact_Appointments`
 - **Dimension tables:** `Dim_Client`, `Dim_Employee`, `Dim_Service`, `Dim_City`, `Dim_Date`
 
+<img width="824" height="140" alt="data-normalized-snapshot" src="https://github.com/user-attachments/assets/7508de05-74b3-4b81-8e62-10265abc16f3" />
+
+
 This modeling approach:
 - Removes redundant descriptive data
 - Ensures atomic structure
@@ -81,6 +87,7 @@ This modeling approach:
 A dedicated **Date dimension table** was created to support proper time-based analysis.
 
 Relationships were built using primary and foreign keys following relational database design principles.
+<img width="538" height="370" alt="data-model-snapshot" src="https://github.com/user-attachments/assets/8971d685-90a8-4784-9d65-0337326bc950" />
 
 ---
 
@@ -97,6 +104,13 @@ Core measures created include:
 
 These measures translate strategic goals into quantifiable performance indicators.
 
+A sample of one of the DAX measures created, where Remote Appointments is another measure calculating remote appointments, Total Appointments all appointments:
+
+```
+Remote Share % = DIVIDE([Remote Appointments], [Total Appointments]) * 100
+
+```
+
 ---
 
 ### 5. Dashboard Design
@@ -109,6 +123,9 @@ The dashboard was designed to be clear and manager-friendly, including:
 - Travel time analysis
 - Employee workload comparison
 - Interactive slicers (city, service, age group, time)
+
+<img width="656" height="380" alt="dashboard-view-snapshot" src="https://github.com/user-attachments/assets/21795b34-9535-498b-9871-fd3c8c7c5f02" />
+
 
 ---
 
@@ -204,5 +221,6 @@ Through this project, I strengthened my skills in:
 ---
 
 ## Final Reflection
+
 
 This project demonstrates how operational healthcare data can be structured, modeled, and analyzed to support evidence-based decision-making and strategic performance management.
