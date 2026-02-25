@@ -41,7 +41,8 @@ To evaluate whether strategic goals are being met, the following questions were 
 - **Microsoft Excel** – storing and structuring the raw dataset  
 - **Power BI** – data cleaning (Power Query), data modeling, DAX calculations, and dashboard development  
 - **Visual Studio Code** – documentation and project organization  
-- **GitHub** – version control and project publication  
+- **GitHub** – version control and project publication
+- **ChatGPT** - configuring the readme-file for improved readability
 
 ---
 
@@ -224,3 +225,4 @@ Through this project, I strengthened my skills in:
 
 
 This project demonstrates how operational healthcare data can be structured, modeled, and analyzed to support evidence-based decision-making and strategic performance management.
+
