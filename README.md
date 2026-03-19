@@ -125,7 +125,7 @@ The dashboard was designed to be clear and manager-friendly, including:
 - Employee workload comparison
 - Interactive slicers (city, service, age group, time)
 
-<img width="656" height="380" alt="dashboard-view-snapshot" src="https://github.com/user-attachments/assets/21795b34-9535-498b-9871-fd3c8c7c5f02" />
+![dashboard-view](./dashboard-snapshot-new.png)
 
 
 ---
