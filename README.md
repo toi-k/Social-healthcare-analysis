@@ -29,7 +29,7 @@ The objective of increasing remote appointments is to:
 To evaluate whether strategic goals are being met, the following questions were defined:
 
 1. Have Metro North and Metro West achieved the target of at least 50% remote appointments?
-2. How does remote appointment usage vary by service type and client age group?
+2. How does remote appointment usage vary by client age group and service type?
 3. Are there differences in employee workload between the cities?
 4. How much travel time is associated with in-person visits, and how much could potentially be reduced?
 5. What operational factors might explain differences between the cities?
@@ -42,7 +42,7 @@ To evaluate whether strategic goals are being met, the following questions were 
 - **Power BI** – data cleaning (Power Query), data modeling, DAX calculations, and dashboard development  
 - **Visual Studio Code** – documentation and project organization  
 - **GitHub** – version control and project publication
-- **ChatGPT** - configuring the readme-file for improved readability
+- **ChatGPT** - configuring and cleaning the readme-file for improved readability
 
 ---
 
@@ -136,7 +136,7 @@ The dashboard was designed to be clear and manager-friendly, including:
 
 Both Metro North and Metro West achieved the overall 50% remote appointment target during the analysis period (January 2nd – March 31st).
 
-However, segmentation revealed important variation.
+However, segmentation revealed important variations.
 
 ---
 
@@ -150,9 +150,9 @@ This suggests structural or service-level differences that warrant further inves
 
 ### 3. Service-Level Variation
 
-Home Care services showed a 15% higher remote appointment share compared to other service categories.
+In Metro North, home care services fell approximately 7 percentage points below the 50% target, while in Metro West, adult social work services were about 17 percentage points below the target.
 
-This may reflect differences in task suitability for remote delivery.
+These differences may reflect variations in service characteristics, client needs and/or operational practices between the areas.
 
 ---
 
@@ -193,7 +193,7 @@ Further data would be required to validate these hypotheses.
 ### Key Findings
 
 - Both cities achieved the strategic 50% remote target overall.
-- Significant variation exists within certain age groups.
+- Significant variation exists within certain age groups and 
 - Travel time represents a measurable efficiency opportunity.
 - Workload differences between cities are moderate.
 
