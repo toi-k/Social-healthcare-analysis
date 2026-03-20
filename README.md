@@ -193,7 +193,7 @@ Further data would be required to validate these hypotheses.
 ### Key Findings
 
 - Both cities achieved the strategic 50% remote target overall.
-- Significant variation exists within certain age groups and 
+- Significant variation exists within certain age groups and services.
 - Travel time represents a measurable efficiency opportunity.
 - Workload differences between cities are moderate.
 
